@@ -65,7 +65,7 @@ spec:
           value: "2"
         - name: PX_BACKUP_DEFAULT_ORG
           value: "default"
-        image: pkumarn/px-backup-base:latest
+        image: docker.io/portworx/px-backup:1.2.2
         imagePullPolicy: Always
         name: px-backup
         ports:
