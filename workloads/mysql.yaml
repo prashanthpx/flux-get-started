@@ -64,7 +64,7 @@ spec:
             command: ["sh", "-c", "mysql -u root -p$MYSQL_ROOT_PASSWORD -e \"select 1\""]
           initialDelaySeconds: 60
           periodSeconds: 10
-          timeoutSeconds: 5
+          timeoutSeconds: 6
         volumeMounts:
         - name: mysql-persistent-storage
           mountPath: /var/lib/mysql
